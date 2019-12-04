@@ -1,0 +1,92 @@
+div{
+    
+    background-color:coral;
+    
+     
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-style: oblique;
+     font-size: medium;
+     position: relative;
+     text-align: justify;
+     margin-left: auto;
+     margin-right: auto;
+     height:fit-content;
+     width: fit-content;
+     border: 0.5px black solid;
+     padding: 5%;
+     scroll-behavior: smooth;
+     
+     
+ }
+ 
+ 
+ 
+ .labelleg1{
+ 
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: large;
+ color: maroon;
+ word-spacing: 1px;
+ padding: 30px;
+ font-weight: bolder;
+ color: white;
+ 
+ }
+ .labelleg2{
+ 
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: large;
+ color: maroon;
+ word-spacing: 1px;
+ padding: 30px;
+ font-weight: bolder;
+ color: white;
+ 
+ }
+ 
+ 
+ #footermainform{
+     
+     position: relative;
+     color: white;
+     font-family: cursive;
+     font-style: italic;
+     background-color: black;
+     width:fit-content;
+     height: fit-content;
+     margin-left: 10px;
+     text-align: center;
+ }
+ 
+ h3{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: larger;
+     font-stretch: semi-expanded;
+     text-align: center;
+     margin-top: 0px;
+     padding: 0px;
+     height: auto;
+     width:auto;
+ }
+ .container-2{
+     border: black 1px solid;
+     padding: 10%;
+     height: fit-content;
+     width:fit-content;
+     text-align: justify;
+ }
+ 
+ .container-3{
+     border: black 1px solid;
+     padding: 10%;
+     height: fit-content;
+     width: fit-content;
+     text-align: justify;
+ }
+
+ .buttons1{
+     padding: 5px;
+     margin-left: 100px;
+ }

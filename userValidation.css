@@ -1,0 +1,84 @@
+
+    .container-1{
+        background-color:lavender;
+        width: fit-content;
+        height: fit-content;
+        padding:100px;
+        margin:10%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-size: medium;
+        position: relative;
+        
+    }
+
+    #button-1{
+        padding:5px;
+        margin-left: 25%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-stretch: expanded;
+        font-style: bold;
+    }
+
+    .inputs-1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+        font-style: bold;
+        padding-left: 10px;
+        padding-top: 5px;
+        color: red;
+        bac
+    }
+    #footerIndex{
+    position: relative;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    background-color: black;
+    width:fit-content;
+    height: fit-content;
+    margin-left: 10px;
+    
+}
+#heading-1{
+    width:fit-content;
+    height: fit-content;
+    background-color: red;
+    color:white;
+}
+
+.container-2{
+    width:100%;
+    height:100%;
+    background-color: grey;
+    padding:1px;
+    margin:1px;
+}
+#validationString{
+    padding-left: 45%;
+    font-size:20px;
+}
+
+#errorsCaptcha{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    position: relative;
+}
+
+#errorsUsername{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    position: relative;
+}
+
+#button-2{
+    position: relative;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-stretch: expanded;
+    font-style: bold;
+}

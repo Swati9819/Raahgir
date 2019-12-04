@@ -1,0 +1,80 @@
+<html>
+    <head><title>Main Form!!</title>
+        <link rel="stylesheet" href="mainForm.css">
+        <script src="mainForm.js" type="text/js"></script>
+       </head>
+    <body>
+        <div class="container-1">
+        <h3>RAAHGIR</h3>
+<form action="#">
+    <div class="container-2">
+<label class="labelleg1" id="prsnlDetails">Personal Details</label><br \><br \>
+<label for="username">Name*</label><br \>
+<input id="userName" name="username" type="text" placeholder="enter username" required><br \>
+<span id="usernameError"></span>
+<label for="emailId">Email Id</label><br \>
+<input id="emailId" name="emailId" type="email" placeholder="enter email"><br \>
+<span id="emailidError"></span>
+<label for="mobileNumber">Mobile No.**</label><br \>
+<input type="number" id="mobilenumber" name="mobilenumber" placeholder="enter your number"><br \><br \>
+<span id="mobilenumberError"></span>
+</div><br \>
+<div class="container-3">
+<label class="labelleg2" id="roadDetails">Road Details</label><br \><br \>
+<label for="roadname">Road Name**</label><br \>
+<input type="text" id="roadname" name="roadname" placeholder="enter road name"><br \>
+<span id="roadnameError"></span>
+<label for="state">State</label><br \>
+<select id="selectstate" >
+    <option selected="selected">Select State</option>
+    <option value="uttar pradesh">Uttar Pradesh</option>
+
+</select><br \>
+<span id="stateErro"></span>
+<label for="district">District</label><br \>
+<select id="selectDistrict">
+    <option selected="selected">Select District</option>
+    <option value="ghaziabad">Ghaziabad</option>
+        <option value="agra">Agra</option>
+            <option value="prayagraj">Prayagraj</option>
+                <option value="ayodhya">Ayodhya</option>
+                    <option value="gorakhpur">Gorakhpur</option>
+                        <option value="Mathura">Mathura</option>
+                            <option value="lucknow">Lucknow</option>
+                            <option value="Kanpur">Kanpur</option>
+                            <option value="Sultanpur">Sultanpur</option>
+                            <option value="amethi">Amethi</option>
+
+
+</select>
+
+<br \>
+<span id="districtError"></span>
+<label for="roadSeverity">Condition of Road</label><br \>
+<select id="roadSeverity">
+    <option selected="selected">Select Condition</option>
+    <option value="vpoor">Very Poor</option>
+    <option value="poor">Poor</option>
+    <option value="avrg">Average</option>
+    <option value="good">Good</option>
+    <option value="verygood">Very Good</option></select>
+    
+</div><br \>
+<span id="severityError"></span>
+
+
+
+<div class="container-3">
+    <label for="commentAdded">Comments/Opinion</label><br \>
+<textarea style="resize: none;"name="commentAdded" id="commentAdded" cols="30" rows="5" 
+placeholder="add your comments/opinions"></textarea><br \><br \>
+<label>Add a picture<br \><input type="file" value="upload_pic"></label>
+</div>
+<input type="submit" class="buttons1" value="SUBMIT" onclick="return validationMainForm()">
+</form>
+
+<footer id="footermainform">developed by MindSpace Invaders</footer>
+
+</div>
+</body>
+</html>
